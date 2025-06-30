@@ -1,0 +1,220 @@
+@use 'reset';
+
+
+
+.oswald-uniquifier {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+body {
+    background-color: black;
+
+    header {
+
+        nav {
+            align-items: baseline;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #110C20CC;
+            width: 100%;
+            height: 58px;
+
+            h1 {
+                padding-left: 40px;
+                color: white;
+                font-size: 30px;
+                font-weight: 800;
+            }
+
+            div {
+                background: #000;
+                background: linear-gradient(165deg, rgba(0, 0, 0, 1) 39%, rgba(19, 19, 214, 1) 73%);
+                display: flex;
+                gap: 50px;
+                padding-right: 40px;
+
+                a {
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                a:hover {
+                    color: blueviolet;
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .header {
+            width: 100%;
+            height: 630px;
+            background: #000;
+            background: linear-gradient(165deg, rgba(0, 0, 0, 1) 36%, rgba(19, 19, 214, 1) 94%);
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 130px;
+
+                h1 {
+                    color: white;
+                    font-size: 100px;
+                }
+
+                p {
+                    color: gray;
+                    font-size: 35px;
+                }
+
+                a {
+                    width: 250px;
+                    height: 50px;
+                    background-color: blue;
+                    color: white;
+                    font-size: 30px;
+                    text-align: center;
+                    padding-top: 10px;
+                    border-radius: 8%;
+                }
+
+                a:hover {
+                    font-size: 40px;
+                    color: aqua;
+                }
+            }
+        }
+
+        padding-bottom: 30px;
+    }
+
+    H1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+
+    main {
+
+        padding-left: 50px;
+
+        .main {
+            gap: 30px;
+            flex-wrap: wrap;
+            display: flex;
+            padding-bottom: 30px;
+
+            div {
+                h1 {
+                    font-weight: 800;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 15%;
+
+                }
+
+                img:hover {
+                    height: 210px;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: white;
+                    width: 200px;
+                }
+            }
+
+            .More {
+                padding-top: 100px;
+                width: 200px;
+                height: 320px;
+                text-align: center;
+
+                a {
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+
+            .More a:hover {
+                font-size: 50px;
+                color: blueviolet;
+            }
+
+        }
+
+        .Mini {
+            display: flex;
+            align-items: baseline;
+            gap: 50px;
+            padding-bottom: 50px;
+
+            p {
+                color: white;
+                font-size: 30px;
+            }
+
+        }
+
+        .tournament {
+            img {
+                padding-bottom: 30px;
+            }
+
+            a {
+                color: white;
+                font-size: 30px;
+            }
+        
+
+         a:hover {
+            font-size: 50px;
+            color: blueviolet;
+        }
+    }
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background: #000;
+    background: linear-gradient(165deg, rgba(0, 0, 0, 1) 39%, rgba(19, 19, 214, 1) 73%);
+    padding-left: 50px;
+    padding-top: 50px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        li {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
+    img {
+        padding-right: 30px;
+    }
+}
+}
