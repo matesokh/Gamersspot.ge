@@ -60,15 +60,12 @@ a {
   box-sizing: border-box;
 }
 
-.oswald-uniquifier {
+body {
+  background-color: black;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-}
-
-body {
-  background-color: black;
 }
 body header {
   padding-bottom: 30px;
