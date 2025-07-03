@@ -130,10 +130,11 @@ body header .header div a {
   font-size: 30px;
   text-align: center;
   padding-top: 10px;
-  border-radius: 8%;
+  border-radius: 25px;
 }
 body header .header div a:hover {
-  font-size: 40px;
+  padding-top: 5px;
+  font-size: 35px;
   color: aqua;
 }
 body H1 {
