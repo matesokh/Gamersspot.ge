@@ -1,1 +1,187 @@
 @use 'reset';
+
+
+
+body {
+    background-color: #000;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: black;
+    background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
+
+
+    header {
+
+        nav {
+            align-items: baseline;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #110C20CC;
+            width: 100%;
+            height: 58px;
+
+            h1 {
+                padding-left: 40px;
+                color: white;
+                font-size: 30px;
+                font-weight: 800;
+            }
+
+            div {
+                background: #000;
+                background: linear-gradient(165deg, rgba(0, 0, 0, 1) 39%, rgba(19, 19, 214, 1) 73%);
+                display: flex;
+                gap: 50px;
+                padding-right: 40px;
+
+                a {
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                a:hover {
+                    color: blueviolet;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    main {
+        .contactinfo {
+
+            display: flex;
+            justify-content: space-around;
+            height: 750px;
+            align-items: center;
+
+            div {
+                border: 5px solid rgb(110, 43, 202);
+                border-radius: 5%;
+                width: 500px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding-left: 40px;
+                padding-bottom: 15px;
+                padding-top: 5px;
+                gap: 15px;
+
+                H1 {
+                    color: white;
+                    font-size: 50px;
+                    padding-left: 50px;
+                }
+
+                p {
+                    color: white;
+                    font-size: 30px;
+
+                }
+
+                a {
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .contactus {
+            display: flex;
+            border: 5px solid #5e2ac6;
+            border-radius: 25px;
+            margin-left: 100px;
+            margin-right: 100px;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+
+            form {
+
+                border-radius: 5%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                width: 500px;
+                height: 500px;
+                align-items: center;
+                justify-content: center;
+
+                h1 {
+                    color: white;
+                    font-size: 50px;
+                }
+
+                input {
+                    width: 380px;
+                    height: 50px;
+                    border-radius: 18px;
+                    padding-left: 15px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    background: 0;
+                    color: white;
+                }
+                
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                textarea {
+                    width: 800px;
+                    height: 400px;
+                    background: 0;
+                    color: white;
+                    resize: none;
+                    padding-top: 20px;
+                    padding-left: 20px;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 250px;
+        background: #000;
+        background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
+        padding-left: 50px;
+        align-items: center;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            li {
+                color: white;
+                font-size: 25px;
+                font-weight: 400;
+            }
+
+            a {
+                color: white;
+                font-size: 25px;
+            }
+        }
+
+        img {
+            width: 240px;
+            padding-right: 50px;
+        }
+    }
+}
