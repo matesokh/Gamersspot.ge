@@ -162,9 +162,6 @@ body main .main div img {
   height: 200px;
   border-radius: 15%;
 }
-body main .main div img:hover {
-  height: 210px;
-}
 body main .main div p {
   font-size: 20px;
   color: white;

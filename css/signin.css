@@ -131,7 +131,7 @@ body main div section {
   justify-content: flex-start;
   border: 0;
 }
-body main div section .checkbox {
+body main div section .Checkbox {
   color: white;
   font-weight: 500;
 }
@@ -142,4 +142,4 @@ body main div section input {
 }
 body main div p {
   color: white;
-}/*# sourceMappingURL=signup.css.map */
+}/*# sourceMappingURL=signin.css.map */
