@@ -54,9 +54,13 @@ nav {
             flex-wrap: wrap;
             justify-content: space-between;
             gap: 25px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 50px;
+            margin-top: 50px;
             a {
                 border: 3px solid #5e2ac6;
-                width: 450px;
+                width: 400px;
                 height: 50px;
                 color: white;
                 text-align: center;
@@ -69,4 +73,38 @@ nav {
                background-color: midnightblue;
             }
         }
+        footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 250px;
+        background: #000;
+        background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
+        padding-left: 50px;
+        
+        align-items: center;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            li {
+                color: white;
+                font-size: 25px;
+                font-weight: 400;
+            }
+
+            a {
+                color: white;
+                font-size: 25px;
+            }
+        }
+
+        img {
+            width: 240px;
+            padding-right: 50px;
+            margin-right: 25px;
+        }
+    }
     }
