@@ -32,18 +32,23 @@ nav {
                 padding-right: 40px;
 
                 a {
-                    color: white;
-                    font-size: 20px;
-                    font-weight: 500;
+                    color: white !important;  
+                    font-size: 20px !important;
+                    font-weight: 500 !important;
                 }
 
-                a:hover {
-                    color: blueviolet;
-                    font-size: 25px;
+                a:hover  {
+                    color: blueviolet !important;
+                    font-size: 25px !important;
                 }
             }
         }
-
+             H1 {
+                color: white;
+                font-size: 40px;
+                padding-left: 50px;
+                margin-bottom: 25px;
+             }
         main {
             display: flex;
             flex-wrap: wrap;
@@ -57,7 +62,11 @@ nav {
                 text-align: center;
                 border-radius: 25px;
                 font-size: 25px;
-
+                padding-top: 10px;
+                transition: 2s;
+            }
+            a:hover {
+               background-color: midnightblue;
             }
         }
     }

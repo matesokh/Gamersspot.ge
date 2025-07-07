@@ -146,7 +146,7 @@ body main div .remember {
 body main div .remember input {
   width: 20px;
   height: 20px;
-  background-color: powderblue;
+  background: 0;
 }
 body main div .remember label {
   color: white;
