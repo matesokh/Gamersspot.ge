@@ -169,6 +169,13 @@ body main .contactus form input {
   background: 0;
   color: white;
   outline: none;
+  border: 3px solid #5e2ac6;
+}
+body main .contactus form ::-moz-placeholder {
+  color: white;
+}
+body main .contactus form ::placeholder {
+  color: white;
 }
 body main .contactus div {
   display: flex;
@@ -185,6 +192,13 @@ body main .contactus div textarea {
   padding-left: 20px;
   border-radius: 20px;
   outline: none;
+  border: 3px solid #5e2ac6;
+}
+body main .contactus div ::-moz-placeholder {
+  color: white;
+}
+body main .contactus div ::placeholder {
+  color: white;
 }
 body footer {
   display: flex;
