@@ -9,7 +9,7 @@ body {
     font-weight: weight;
     font-style: normal;
     position: relative;
-    
+
     .back {
         position: absolute;
         top: 50px;
@@ -19,9 +19,10 @@ body {
     main {
         width: 100%;
         height: 1017px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         div {
             border: 5px solid #5e2ac6;
             border-radius: 20px;
@@ -35,9 +36,9 @@ body {
             padding-bottom: 20px;
             background: transparent;
             backdrop-filter: blur(50px);
-                
 
-            
+
+
             h1 {
                 font-weight: 800;
                 font-size: 40px;
@@ -47,7 +48,7 @@ body {
             a {
                 color: white;
             }
-         
+
             input {
                 width: 336px;
                 height: 45px;
@@ -59,10 +60,16 @@ body {
                 outline: none;
                 color: white;
                 border: 3px solid #5e2ac6;
-            
+
             }
+
             ::placeholder {
                 color: white;
+            }
+
+            .checkbox {
+                color: white;
+                font-weight: 500;
             }
 
             section {
@@ -74,24 +81,29 @@ body {
                 justify-content: flex-start;
                 border: 0;
 
-                .checkbox {
-                    color: white;
-                    font-weight: 500;
+                form {
+                    display: flex;
+                    align-items: center;
+
+                    input {
+                        width: 20px;
+                        height: 20px;
+                        background-color: powderblue;
+                    }
+
+                    label {
+                        color: white;
+                    }
+
+
                 }
 
-                input {
-                    width: 20px;
-                    height: 20px;
-                    background-color: white;
-                }
-
-                
 
             }
-            p {
-                    color: white;
-                }
-        }
 
+            p {
+                color: white;
+        }
+    }
     }
 }
