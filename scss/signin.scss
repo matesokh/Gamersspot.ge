@@ -37,14 +37,20 @@ body {
             background: transparent;
             backdrop-filter: blur(50px);
           
-
+             section {
+                position: relative;
+             }
 
             h1 {
                 font-weight: 800;
                 font-size: 40px;
                 color: white;
             }
-            
+            i {
+                position: absolute;
+                right: 25px;
+                top: 22px;
+            }
 
             a {
                 color: white;
@@ -68,11 +74,10 @@ body {
                 color: white;
             }
 
-            section {
+            .Remember {
 
                 align-items: center;
-                margin-top: 10px;
-                margin-right: 185px;
+                margin-top: 5px;
                 display: flex;
                 flex-direction: row;
                 align-items: center;

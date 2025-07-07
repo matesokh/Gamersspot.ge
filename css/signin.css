@@ -96,10 +96,18 @@ body main div {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
+body main div section {
+  position: relative;
+}
 body main div h1 {
   font-weight: 800;
   font-size: 40px;
   color: white;
+}
+body main div i {
+  position: absolute;
+  right: 25px;
+  top: 22px;
 }
 body main div a {
   color: white;
@@ -122,26 +130,25 @@ body main div ::-moz-placeholder {
 body main div ::placeholder {
   color: white;
 }
-body main div section {
+body main div .Remember {
   align-items: center;
-  margin-top: 10px;
-  margin-right: 185px;
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   border: 0;
 }
-body main div section .Checkbox {
+body main div .Remember .Checkbox {
   color: white;
   font-weight: 500;
 }
-body main div section input {
+body main div .Remember input {
   width: 20px;
   height: 20px;
   background-color: white;
 }
-body main div section p {
+body main div .Remember p {
   color: white;
 }
 body main div p {

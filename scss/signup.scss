@@ -37,7 +37,14 @@ body {
             background: transparent;
             backdrop-filter: blur(50px);
 
-
+           section {
+            position: relative;
+           }
+           i {
+            position: absolute;
+            top: 22px;
+            right: 20px;
+           }
 
             h1 {
                 font-weight: 800;
@@ -72,7 +79,7 @@ body {
                 font-weight: 500;
             }
 
-            section {
+            .remember {
                 margin-top: 10px;
                 margin-right: 185px;
                 display: flex;
@@ -81,9 +88,7 @@ body {
                 justify-content: flex-start;
                 border: 0;
 
-                form {
-                    display: flex;
-                    align-items: center;
+                    
 
                     input {
                         width: 20px;
@@ -106,4 +111,3 @@ body {
         }
     }
     }
-}

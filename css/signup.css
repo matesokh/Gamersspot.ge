@@ -96,6 +96,14 @@ body main div {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
+body main div section {
+  position: relative;
+}
+body main div i {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
 body main div h1 {
   font-weight: 800;
   font-size: 40px;
@@ -126,7 +134,7 @@ body main div .checkbox {
   color: white;
   font-weight: 500;
 }
-body main div section {
+body main div .remember {
   margin-top: 10px;
   margin-right: 185px;
   display: flex;
@@ -135,18 +143,14 @@ body main div section {
   justify-content: flex-start;
   border: 0;
 }
-body main div section form {
-  display: flex;
-  align-items: center;
-}
-body main div section form input {
+body main div .remember input {
   width: 20px;
   height: 20px;
   background-color: powderblue;
 }
-body main div section form label {
+body main div .remember label {
   color: white;
 }
-body main div p {
+body main p {
   color: white;
 }/*# sourceMappingURL=signup.css.map */
