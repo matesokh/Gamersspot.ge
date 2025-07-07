@@ -123,6 +123,7 @@ body main div ::placeholder {
   color: white;
 }
 body main div section {
+  align-items: center;
   margin-top: 10px;
   margin-right: 185px;
   display: flex;
@@ -139,6 +140,9 @@ body main div section input {
   width: 20px;
   height: 20px;
   background-color: white;
+}
+body main div section p {
+  color: white;
 }
 body main div p {
   color: white;
