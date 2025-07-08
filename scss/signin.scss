@@ -1,6 +1,11 @@
 @use 'reset';
 
 
+.back {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
 body {
     background-color: black;
     background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
@@ -10,11 +15,7 @@ body {
     font-style: normal;
     position: relative;
 
-    .back {
-        position: absolute;
-        top: 50px;
-        left: 50px;
-    }
+    
 
     main {
         width: 100%;
