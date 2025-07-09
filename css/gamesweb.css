@@ -83,6 +83,9 @@ body main {
   gap: 20px;
   padding-top: 100px;
 }
+body main img {
+  border-radius: 35px;
+}
 body main div {
   display: flex;
   align-items: center;
@@ -90,7 +93,7 @@ body main div {
 body main div p {
   color: white;
   width: 1000px;
-  height: 100px;
+  height: 200px;
   font-size: 20px;
 }
 body main div a {
@@ -104,7 +107,6 @@ body main div a {
 }
 body main .images {
   display: flex;
-  padding-top: 100px;
   gap: 110px;
   padding-bottom: 50px;
 }/*# sourceMappingURL=gamesweb.css.map */

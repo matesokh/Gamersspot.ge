@@ -97,6 +97,7 @@ body header nav div a {
   color: white;
   font-size: 20px;
   font-weight: 500;
+  transition: 2s;
 }
 body header nav div a:hover {
   color: blueviolet;
