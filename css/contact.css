@@ -60,6 +60,12 @@ a {
   box-sizing: border-box;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 body {
   background-color: #000;
   font-family: "Oswald", sans-serif;

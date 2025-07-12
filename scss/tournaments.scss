@@ -1,7 +1,15 @@
 @use 'reset';
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     background-color: black;
+    background: -o-linear-gradient(285deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
     background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -9,10 +17,16 @@ body {
     font-style: normal;
 
     nav {
-        align-items: baseline;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
         padding-top: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         background-color: #110C20CC;
         width: 100%;
         height: 58px;
@@ -26,7 +40,10 @@ body {
 
         div {
             background: #000;
+            background: -o-linear-gradient(285deg, rgba(0, 0, 0, 1) 39%, rgba(19, 19, 214, 1) 73%);
             background: linear-gradient(165deg, rgba(0, 0, 0, 1) 39%, rgba(19, 19, 214, 1) 73%);
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 50px;
             padding-right: 40px;
@@ -35,6 +52,8 @@ body {
                 color: white;
                 font-size: 20px;
                 font-weight: 500;
+                -webkit-transition: 1s;
+                -o-transition: 1s;
                 transition: 1s;
             }
 
@@ -52,9 +71,13 @@ body {
         margin-top: 20px;
     }
     main {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         margin-bottom: 33px;
         margin-top: 50px;
         gap: 90px;
@@ -71,6 +94,8 @@ body {
                 
                 
             div {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 margin-top: 15px;
                 margin-left: 15px;
@@ -82,6 +107,8 @@ body {
                 }
             }
             a {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 width: 150px;
                 height: 50px;
@@ -92,6 +119,8 @@ body {
                 padding-top: 7px;
                 margin-top: 20px;
                 margin-left: 60px;
+                -webkit-transition: 2s;
+                -o-transition: 2s;
                 transition: 2s;
             }
             a:hover {
@@ -100,19 +129,32 @@ body {
         }
     }
     footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 100%;
         height: 250px;
         background: #000;
+        background: -o-linear-gradient(285deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
         background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
         padding-left: 50px;
         
-        align-items: center;
+        -webkit-box-align: center;
+        
+            -ms-flex-align: center;
+        
+                align-items: center;
 
         ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             gap: 10px;
 
             li {

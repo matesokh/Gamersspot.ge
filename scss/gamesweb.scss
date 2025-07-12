@@ -1,8 +1,16 @@
 @use 'reset';
 
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     background-color: black;
+    background: -o-linear-gradient(285deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
     background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -18,10 +26,19 @@ body {
 
    main {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
           gap: 20px;
           padding-top: 100px;
 
@@ -30,8 +47,12 @@ body {
           }
 
         div {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             
             p {
                 color: white;
@@ -50,6 +71,8 @@ body {
             }
         }
         .images {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 110px;
             padding-bottom: 50px;
