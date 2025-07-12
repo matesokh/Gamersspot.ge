@@ -94,7 +94,7 @@ body nav div a {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  transition: 2s;
+  transition: 1s;
 }
 body nav div a:hover {
   color: blueviolet;
@@ -148,6 +148,10 @@ body main section a {
   padding-top: 7px;
   margin-top: 20px;
   margin-left: 60px;
+  transition: 2s;
+}
+body main section a:hover {
+  background-color: midnightblue;
 }
 body footer {
   display: flex;

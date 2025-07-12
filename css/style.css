@@ -90,14 +90,14 @@ body header nav div {
   background: #000;
   background: linear-gradient(165deg, rgb(0, 0, 0) 39%, rgb(19, 19, 214) 73%);
   display: flex;
-  gap: 50px;
+  gap: 30px;
   padding-right: 40px;
 }
 body header nav div a {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  transition: 2s;
+  transition: 1s;
 }
 body header nav div a:hover {
   color: blueviolet;
@@ -132,6 +132,7 @@ body header .header div a {
   text-align: center;
   padding-top: 10px;
   border-radius: 25px;
+  transition: 1s;
 }
 body header .header div a:hover {
   padding-top: 5px;
@@ -177,6 +178,7 @@ body main .main .More {
 body main .main .More a {
   color: white;
   font-size: 30px;
+  transition: 1s;
 }
 body main .main .More a:hover {
   font-size: 50px;
@@ -199,6 +201,8 @@ body main .tournament img {
 body main .tournament a {
   color: white;
   font-size: 30px;
+  transition: 1s;
+  padding-bottom: 30px;
 }
 body main .tournament a:hover {
   font-size: 50px;
@@ -229,6 +233,6 @@ body footer ul a {
   font-size: 25px;
 }
 body footer img {
-  width: 240px;
+  width: 140px;
   padding-right: 50px;
 }/*# sourceMappingURL=style.css.map */
