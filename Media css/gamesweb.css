@@ -1,0 +1,24 @@
+
+@media (max-width:1217px) {
+
+    body {
+        img {
+            width: 600px;
+        }
+        div {
+            flex-direction: column !important;
+            p{
+                width: 300px  !important;
+                height: 700px  !important;
+            }
+        }
+    }
+}
+
+@media (max-width:619px) {
+  img {
+    width: 300px !important;
+  }
+     
+}
+
