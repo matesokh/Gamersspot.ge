@@ -89,6 +89,11 @@ body {
 
     }
 }
+}
 
+footer {
+    img {
+        margin-right: 0px !important;
+    }
 }
 }
